@@ -1,0 +1,2 @@
+# narol.pro
+blog

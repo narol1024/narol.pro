@@ -7,7 +7,7 @@ title: Blog
 subtitle: I'am Narol
 description: Front-end Developer & Photographer & Runner
 keywords:
-author: Narol
+author: John Doe
 language: en
 timezone: ''
 
@@ -102,4 +102,6 @@ theme: ascent
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:inarol/narol.pro.git
+  branch: static

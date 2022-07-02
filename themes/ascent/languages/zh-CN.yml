@@ -1,0 +1,30 @@
+categories: 分类
+search: 搜索
+tags: 标签
+tagcloud: 标签云
+tweets: Tweets
+prev: 上一页
+next: 上一页
+comment: 评论
+home: 首页
+archive: 归档
+archives: 归档
+archive_a: 归档
+archive_b: '归档: %s'
+page: 页 %d
+recent_posts: 最近更新
+newer: 最新
+older: 较早
+post: 文章
+share: 分享
+powered_by: Powered by
+rss_feed: RSS
+category: 分类
+tag: 标签
+date_published: 发布时间
+
+front-end developer: 前端工程师
+photographer: 摄影爱好者
+runner: 跑步爱好者
+
+toggle all: 展开全部

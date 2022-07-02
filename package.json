@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "deploy:all": "npm run deploy && npm run deploy:en",
+    "build": "hexo clean && hexo generate",
+    "deploy": "hexo clean && hexo deploy",
+    "server": "hexo clean && hexo server",
+    "build:en": "hexo clean && hexo generate --config ./_config.en.yml",
+    "deploy:en": "hexo clean && hexo deploy --config ./_config.en.yml",
+    "server:en": "hexo clean && hexo server --config ./_config.en.yml",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"
   },

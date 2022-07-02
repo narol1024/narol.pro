@@ -101,6 +101,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: ascent
+theme_config:
+  # Header
+  menu:
+    Home: /
+    Archives: en/archives
+    Github: https://github.com/inarol
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

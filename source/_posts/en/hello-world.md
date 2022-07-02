@@ -2,6 +2,7 @@
 title: Hello World
 lang: en
 date: 2022-06-28
+excerpt: Hi, Welcome!
 categories:
   - Others
 ---

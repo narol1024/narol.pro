@@ -36,7 +36,7 @@
     </div>
     <% if (post.excerpt && index && theme.excerpt_link){ %>
       <div class="article-more-link">
-        <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+        <a href="<%= config.prepath %><%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
       </div>
     <% } %>
     <% if (!index && ((post.tags && post.tags.length) || (post.categories && post.categories.length))){ %>
@@ -65,7 +65,7 @@
     <% } %>
     <% if (index && theme.intensedebate.enable && theme.intensedebate.acct){ %>
       <footer class="article-footer">
-        <a href="<%- url_for(post.path) %>#idc-container">Comments</a>
+        <a href="<%= config.prepath %><%- url_for(post.path) %>#idc-container">Comments</a>
       </footer>
     <% } %>
   </div>

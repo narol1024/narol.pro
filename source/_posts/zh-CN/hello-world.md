@@ -1,7 +1,8 @@
 ---
 title: 你好
 lang: zh-CN
-date: 2022-06-28
+date: 1970-01-01
+excerpt: 你好，欢迎！
 categories:
   - 其他
 ---

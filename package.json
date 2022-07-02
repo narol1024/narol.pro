@@ -7,9 +7,9 @@
     "build": "hexo clean && hexo generate",
     "deploy": "hexo clean && hexo deploy",
     "server": "hexo clean && hexo server",
-    "build:en": "hexo clean && hexo generate --config ./_config.en.yml",
-    "deploy:en": "hexo clean && hexo deploy --config ./_config.en.yml",
-    "server:en": "hexo clean && hexo server --config ./_config.en.yml",
+    "build:en": "hexo clean && hexo generate --config _config.yml,_config.en.yml,_config.en.prod.yml",
+    "deploy:en": "hexo clean && hexo deploy --config _config.yml,_config.en.yml,_config.en.prod.yml",
+    "server:en": "hexo clean && hexo server --config _config.yml,_config.en.yml",
     "clean": "hexo clean",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"

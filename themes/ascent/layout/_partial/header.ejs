@@ -3,7 +3,7 @@
     <a href="<%- url_for() %>"><%= config.title %></a>
   </h1>
   <p class="subtitle"><%= __(config.subtitle) %></p>
-  <p class="description"><%= config.description.map(v => v).join(" & ") %></p>
+  <p class="description"><%= config.description %></p>
   <nav>
     <% var keys = Object.keys(theme.menu); %>
     <% for (var i = 0; i < keys.length; i++){ %>

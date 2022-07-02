@@ -104,9 +104,10 @@ theme: ascent
 theme_config:
   # Header
   menu:
-    Home: /
+    Home: /en
     Archives: en/archives
-    Github: https://github.com/inarol
+
+prepath: /en
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

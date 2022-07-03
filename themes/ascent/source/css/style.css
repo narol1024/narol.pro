@@ -125,6 +125,15 @@ body {
   overflow: visible;
 }
 
+.article-entry.title-left h1,
+.article-entry.title-left h2,
+.article-entry.title-left h3,
+.article-entry.title-left h4,
+.article-entry.title-left h5,
+.article-entry.title-left h6 {
+  text-align: left;
+}
+
 .article-category {
   line-height: 1.5;
 }
@@ -514,4 +523,17 @@ table th {
   float: right;
   font-size: 2em;
   /* padding: 0.5em; */
+}
+
+/** for markdown */
+.h5-4md {
+  text-align: center;
+  font-size: 1.8em;
+}
+.h5-4md.yellow {
+  color: rgb(237, 157, 0);
+}
+
+.text-c-4md {
+  text-align: center;
 }

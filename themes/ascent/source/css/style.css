@@ -537,3 +537,9 @@ table th {
 .text-c-4md {
   text-align: center;
 }
+
+.icp {
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}

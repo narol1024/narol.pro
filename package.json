@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "f2elint": "^2.2.1",
-    "hexo-deployer-git": "^3.0.0"
+    "hexo-deployer-git": "^4.0.0"
   },
   "husky": {
     "hooks": {

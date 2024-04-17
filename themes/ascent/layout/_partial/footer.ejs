@@ -33,10 +33,12 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
     l = localStorage,
     s =
       l.getItem('s') ||
-      (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches),
+      (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  let 
     n = l.getItem('n'),
     m = d.getElementById('dark-mode'),
     b = () => {
+      // light
       f('--bg-color', 'linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px)');
       f('--code-bg-color', '#f4f4f4');
       f('--text-color', '#212121');
@@ -46,11 +48,18 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
       f('--link-hover-color', '#618794');
       f('--link-bg-color', '#dae4e7');
       f('--selection-color', '#dae4e7');
-      // m.innerHTML = 'dark';
       m.classList.remove('icss-sun');
       m.classList.add('icss-moon');
+
+      const metaList = document.getElementsByTagName("meta");
+      for (let i = 0; i < metaList.length; i++) {
+        if (metaList[i].getAttribute("name") == "theme-color") {
+          metaList[i].content = '#ffffff';
+        }
+      }
     },
     c = () => {
+      // dark
       f('--bg-color', 'linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, #212121 1px), linear-gradient(to right, rgba(0, 0, 0, 0.96) 1px, #212121 1px)');
       f('--code-bg-color', '#292929');
       f('--text-color', '#fff');
@@ -62,7 +71,13 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
       f('--selection-color', '#acc1c9');
       m.classList.remove('icss-moon');
       m.classList.add('icss-sun');
-      // m.innerHTML = 'light';
+
+      const metaList = document.getElementsByTagName("meta");
+      for (let i = 0; i < metaList.length; i++) {
+        if (metaList[i].getAttribute("name") == "theme-color") {
+          metaList[i].content = '#212121';
+        }
+      }
     },
     o = d.getElementById('sans-font'),
     e = () => {

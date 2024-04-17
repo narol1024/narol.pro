@@ -91,6 +91,8 @@ body {
 .article-more-link {
   font-family: var(--secondary-stack);
   color: var(--secondary-color);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .nav-spacer {

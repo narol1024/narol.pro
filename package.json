@@ -3,13 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy:all": "npm run deploy && npm run deploy:en",
+    "deploy:ali": "hexo clean && hexo deploy --config _config.yml,_config.private.yml",
     "build": "hexo clean && hexo generate",
     "deploy": "hexo clean && hexo deploy",
     "server": "hexo clean && hexo server",
-    "build:en": "hexo clean && hexo generate --config _config.yml,_config.en.yml,_config.en.prod.yml",
-    "deploy:en": "hexo clean && hexo deploy --config _config.yml,_config.en.yml,_config.en.prod.yml",
-    "server:en": "hexo clean && hexo server --config _config.yml,_config.en.yml",
     "clean": "hexo clean",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"
@@ -31,7 +28,8 @@
   },
   "devDependencies": {
     "f2elint": "^2.2.1",
-    "hexo-deployer-git": "^3.0.0"
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-deployer-sftp": "^0.4.1"
   },
   "husky": {
     "hooks": {

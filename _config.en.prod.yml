@@ -1,9 +1,0 @@
-public_dir: public/en
-
-theme_config:
-  # Header
-  menu:
-    Home: /en
-    Archives: en/archives
-
-prepath: /en

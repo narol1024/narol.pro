@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blog
+title: Narol'Blog
 subtitle: Narol's Blog
 description: Devoted To being a Full-Stack Engineer.
 
@@ -105,6 +105,6 @@ prepath: ''
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:inarol/narol.pro.git
-  branch: static
+  - type: git
+    repo: git@github.com:inarol/narol.pro.git
+    branch: static

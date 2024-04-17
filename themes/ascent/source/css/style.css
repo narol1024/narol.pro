@@ -1,6 +1,7 @@
 /* general */
 :root {
-  --bg-color: #fafafa;
+  --bg-color: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   --code-bg-color: #f4f4f4;
   --text-color: #212121;
   --secondary-color: hsl(0, 0%, 50%);
@@ -27,8 +28,7 @@ body {
   min-height: 100%;
   position: relative;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-image: var(--bg-color);
   background-size: 7px 7px;
 }
 
@@ -119,10 +119,10 @@ body {
 }
 
 .article-entry {
-  line-height: 1.5;
+  line-height: 1.8;
   margin-bottom: 1em;
   overflow: visible;
-  color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .article-entry.title-left h1,
@@ -295,7 +295,6 @@ h5,
 h6 {
   font-weight: normal;
   letter-spacing: 0.1em;
-  text-align: center;
   text-decoration: none;
 }
 
@@ -453,7 +452,7 @@ img {
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
-  max-width: 40em;
+  max-width: min(40em, 100%);
 }
 
 a img {
@@ -509,9 +508,9 @@ table th {
 
 #settings-container {
   /* background: var(--tertiary-color); */
-  bottom: 1em;
+  bottom: 3em;
   position: fixed;
-  right: 1em;
+  right: 2em;
 }
 
 #sans-font,
@@ -540,4 +539,11 @@ table th {
   font-size: 10px;
   text-align: center;
   color: var(--secondary-color);
+}
+
+.img-title {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 8px;
 }

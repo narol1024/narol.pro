@@ -12,6 +12,20 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
   <i id="dark-mode" class="icss icss-moon"></i>
   <div id="sans-font" style="display: none;">sans</div>
 </div>
+<script>
+  // Wait for the DOM to be loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    // Create alt text labels for all images
+    var images = document.getElementsByTagName('img');
+    for(var i = 0; i < images.length; i++) {
+      var text = `图${i + 1}`;
+      var label = document.createElement('div');
+      label.textContent = text;
+      label.className = 'img-title';
+      images[i].insertAdjacentElement('afterend', label);
+    }
+  });
+  </script>
 <script type="text/javascript">
   let d = document,
     r = d.documentElement.style,
@@ -23,7 +37,7 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
     n = l.getItem('n'),
     m = d.getElementById('dark-mode'),
     b = () => {
-      f('--bg-color', '#fafafa');
+      f('--bg-color', 'linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px)');
       f('--code-bg-color', '#f4f4f4');
       f('--text-color', '#212121');
       f('--secondary-color', '#808080');
@@ -37,7 +51,7 @@ let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)
       m.classList.add('icss-moon');
     },
     c = () => {
-      f('--bg-color', '#212121');
+      f('--bg-color', 'linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, #212121 1px), linear-gradient(to right, rgba(0, 0, 0, 0.96) 1px, #212121 1px)');
       f('--code-bg-color', '#292929');
       f('--text-color', '#fff');
       f('--secondary-color', '#c0c0c0');

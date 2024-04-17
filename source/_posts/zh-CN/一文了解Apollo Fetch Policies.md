@@ -28,7 +28,7 @@ Apollo 默认的 fetch policy 是 cache-first（缓存优先），与获取最�
 
 5.返回数据。
 
-![](/images/一文了解Apollo-Fetch-Policies/00.jpg)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202404171056143.webp)
 
 ### cache-and-network:
 
@@ -44,7 +44,7 @@ Apollo 默认的 fetch policy 是 cache-first（缓存优先），与获取最�
 
 5.返回数据。
 
-![](/images/一文了解Apollo-Fetch-Policies/01.jpg)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202404171056145.webp)
 
 ### network-only:
 
@@ -56,7 +56,7 @@ Apollo 默认的 fetch policy 是 cache-first（缓存优先），与获取最�
 
 3.返回数据。
 
-![](/images/一文了解Apollo-Fetch-Policies/02.jpg)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202404171056146.webp)
 
 ### no-cache:
 
@@ -66,7 +66,7 @@ no-cache 有点类似 network-only，但是它跳过了缓存数据的更新。�
 
 2.服务端返回数据，但不会写入缓存中。
 
-![](/images/一文了解Apollo-Fetch-Policies/03.jpg)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202404171056147.webp)
 
 ### cache-only:
 
@@ -76,7 +76,7 @@ no-cache 有点类似 network-only，但是它跳过了缓存数据的更新。�
 
 2.如果获取的数据在缓存的话，则返回，否则会抛出一个错误。
 
-![](/images/一文了解Apollo-Fetch-Policies/04.jpg)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202404171056148.webp)
 
 ## 设置 Fetch Policies
 

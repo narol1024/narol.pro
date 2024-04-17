@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy:ali": "hexo clean && hexo deploy --config _config.yml,_config.private.yml",
     "build": "hexo clean && hexo generate",
-    "deploy": "hexo clean && hexo deploy",
+    "deploy": "hexo clean && hexo deploy --config _config.yml,_config.private.yml",
     "server": "hexo clean && hexo server",
     "clean": "hexo clean",
     "f2elint-scan": "f2elint scan",

@@ -1,10 +1,10 @@
 # narol.pro
 
-blog
+Here is the source of blog, please move to [https://narol.pro](https://narol.pro)
 
 ## 部署说明
 
 ```
 npm run server
-npm run deploy:all
+npm run deploy
 ```

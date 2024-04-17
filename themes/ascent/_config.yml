@@ -6,10 +6,10 @@ menu:
 # rss: /atom.xml
 
 # Content
-excerpt_link: read more
+excerpt_link: '> 展开'
 
 # Favicon
-# favicon: /favicon.ico
+favicon: https://narol-blog.oss-cn-beijing.aliyuncs.com/blog.ico
 
 # Settings toggle
 settings: true

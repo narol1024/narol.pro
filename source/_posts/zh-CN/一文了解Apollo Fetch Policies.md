@@ -1,5 +1,5 @@
 ---
-title: 一文了解Apollo Fetch Policies
+title: Apollo Fetch的配置详解
 lang: zh-CN
 date: 2020-05-07
 excerpt: 像大多数前端开发工具一样，Apollo Client是非常灵活的，比如Apollo Cache就是其中一个。Apollo Client为浏览器提供了获取数据的缓存设置，避免不必要的网络请求，来提升应用的性能。
@@ -8,7 +8,7 @@ categories:
 text-align: left
 ---
 
-> 本文翻译自 Understanding Apollo Fetch Policies
+> 本文翻译自 [Understanding Apollo Fetch Policies](https://medium.com/@galen.corey/understanding-apollo-fetch-policies-705b5ad71980)
 
 像大多数前端开发工具一样，Apollo Client 是非常灵活的，比如 Apollo Cache 就是其中一个。Apollo Client 为浏览器提供了获取数据的缓存设置，避免不必要的网络请求，来提升应用的性能。不过有时候也会很复杂，因为我们可能不知道数据从哪里来的，可能是从服务端 API 加载最新的数据，又可能是从缓存中获取，它完全取决于你自己的设置。但是我们从缓存中获取实时数据时，如果这个数据相对服务器已经过期，问题就会更明显了。
 

@@ -210,11 +210,12 @@ body {
 }
 
 .archive-article-header {
-  align-items: center;
+  align-items: flex-start;
   display: inline-flex;
 }
 
 .archive-article-date {
+  min-width: 7em;
 }
 
 .archive-article-title {

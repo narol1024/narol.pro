@@ -5,6 +5,10 @@
 <% if (is_archive() || is_category() || is_tag()){ %>
 <script type="text/javascript">
 let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)x[i].checked=s.checked;}
+
+// HACK: 默认展开
+document.getElementById('toggle-all').click();
+
 </script>
 <% } %>
 <% if (theme.settings){ %>

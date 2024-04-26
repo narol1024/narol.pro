@@ -1,7 +1,7 @@
 ---
 title: Webpack原理系列-理解模块的运行时代码
 lang: zh-CN
-date: 2022-02-18
+date: 2022-03-08
 excerpt: 我们先使用 CommonJS 模块规范的项目工程来构建，因为它的构建产物代码更简单，减少一些概念，方便理解。
 categories:
   - 技术

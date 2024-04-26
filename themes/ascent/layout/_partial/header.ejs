@@ -10,7 +10,7 @@
       <% if (i !== 0){ %>
         <span class="nav-spacer"></span>
       <% } %>
-      <a class="nav-link" href="<%- url_for(theme.menu[keys[i]]) %>"><%= __(keys[i].toLowerCase()) %></a>
+      <a class="nav-link" href="<%- url_for(theme.menu[keys[i]]) %>"><%= __(keys[i]) %></a>
     <% } %>
     <% if (theme.rss){ %>
       <span class="nav-spacer"></span>

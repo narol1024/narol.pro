@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hexo clean && hexo generate",
     "deploy": "hexo clean && hexo deploy --config _config.yml,_config.private.yml",
-    "server": "hexo clean && hexo server",
+    "serve": "hexo clean && hexo server",
     "clean": "hexo clean",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"

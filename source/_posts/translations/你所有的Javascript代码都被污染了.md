@@ -1,7 +1,7 @@
 ---
 title: 你所有的Javascript代码都被污染了
 lang: zh-CN
-date: 2022-11-21
+date: 2020-11-21
 excerpt: 好吧，可能不是所有的 Javascript 代码都会（作者有标题党的嫌疑 😂），这是一篇关于 Javascript 的`prototype`被污染的短文，我已经不只一次看到这个问题了。
 categories:
   - 技术

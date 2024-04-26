@@ -1,7 +1,7 @@
 ---
 title: 'Redux: 从入门到掌握-Part2'
 lang: zh-CN
-date: 2022-11-18
+date: 2020-11-18
 excerpt: '本文是：Redux: 从入门到掌握-Part1的续篇，通过上一篇文章，我们理解了 Redux 各种的概念，而这篇文章，我们将通过编写一个简单的 TO-DO 列表的项目来学会如何使用Redux'
 categories:
   - 技术

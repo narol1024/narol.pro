@@ -1,7 +1,7 @@
 ---
 title: 'Redux: 从入门到掌握-Part1'
 lang: zh-CN
-date: 2022-11-17
+date: 2020-11-17
 excerpt: 很多开发者喜欢往前端框架加入一些神秘的「面纱」，比如React，它能够直接地看到数据的流向，但这一切跟他们之前所了解的完全不一样。如果不知道这里面的实现，看起来确实比较神奇，就如 Arthur C. Clarke 说的：
 categories:
   - 技术

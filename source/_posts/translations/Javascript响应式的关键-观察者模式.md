@@ -1,7 +1,7 @@
 ---
 title: Javascript响应式的关键-观察者模式
 lang: zh-CN
-date: 2022-11-12
+date: 2020-11-12
 excerpt: 很多开发者喜欢往前端框架加入一些神秘的「面纱」，比如React，它能够直接地看到数据的流向，但这一切跟他们之前所了解的完全不一样。如果不知道这里面的实现，看起来确实比较神奇，就如 Arthur C. Clarke 说的：
 categories:
   - 技术

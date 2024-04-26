@@ -1,5 +1,5 @@
 ---
-title: 调试一个Nodejs的Socket问题
+title: 调试一个NodeJS的Socket问题
 lang: zh-CN
 date: 2021-08-24
 excerpt: 最近在使用 React Native 调试时，遇到了一个 Bug，部分 Android 机在熄屏后抛出了 Socket 异常，看起来是这个异常因为未被捕获，而导致 NodeJS 进程崩溃

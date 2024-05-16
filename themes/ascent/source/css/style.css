@@ -15,6 +15,7 @@
     sans-serif;
   --title-stack: 'Playfair Display SC', 'Georgia', serif;
   --divider: rgb(235, 235, 235);
+  --bgColor-neutral-muted: #65696e33;
 }
 
 html {
@@ -120,6 +121,11 @@ body {
   text-underline-offset: 4px;
 }
 
+.article-title.headline {
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .article-entry {
   line-height: 1.8;
   margin-bottom: 1em;
@@ -136,6 +142,18 @@ body {
   text-align: left;
 }
 
+.article-entry strong {
+  padding: 0 0.4em;
+}
+
+.article-entry code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--bgColor-neutral-muted);
+  border-radius: 6px;
+}
 .article-category {
   line-height: 1.5;
 }
@@ -310,14 +328,20 @@ h2 {
 
 h2 {
   font-size: 1.5em;
+  font-weight: 500;
 }
 
-h3,
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 2rem 0 1rem 0;
+}
+
 h4,
 h5,
 h6 {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 1.5rem;
   text-transform: uppercase;
 }
@@ -386,7 +410,7 @@ blockquote {
 .article-entry a {
   -webkit-transition-duration: 0.3s;
   -webkit-transition-property: border-bottom;
-  border-bottom: 3px solid var(--link-color);
+  border-bottom: 1px solid var(--link-color);
   transition-duration: 0.3s;
   transition-property: border-bottom;
 }
@@ -454,7 +478,6 @@ a.extend:hover,
 img {
   box-sizing: border-box;
   display: block;
-  margin: 0 auto;
   max-width: min(40em, 100%);
 }
 
@@ -546,7 +569,6 @@ table th {
 
 .img-title {
   color: var(--secondary-color);
-  text-align: center;
   font-size: 12px;
   margin-top: 8px;
 }

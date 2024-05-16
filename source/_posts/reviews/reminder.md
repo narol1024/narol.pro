@@ -97,6 +97,6 @@ Apple 的操作系统自带的软件有个“老规矩”，它会默默地躺�
 - 即刻想法 https://icloud.com/reminders/template/C66545B1-D283-4339-B75B-802CB909F860
 - 明天待办 https://icloud.com/reminders/template/C61E42E8-280E-493A-A8CB-EBBDD5BC27FF
 
-Afred 插件:
+Alfred 插件:
 
 https://github.com/surrealroad/alfred-reminders

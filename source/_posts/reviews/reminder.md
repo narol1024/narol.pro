@@ -31,7 +31,7 @@ categories:
 
 举个例子，比如你正准备去运动，突然间想起有份报告要上交，此时如果这些任务没有标明重要和紧急程度，极有可能你会选择先去跑步，而错过了交报告的 deadline。因此任务是死的，只有我们自己按照一定的规则去归类和排序，任务才能有机地运转起来。这里我运用了管理学上的一个方法：**任务四象限法**。
 
-![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202405161740534.svg?500x)
+![](https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202405172155640.svg?500x)
 
 此外，我认为还可以新增 3 个分类：
 

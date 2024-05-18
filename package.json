@@ -10,6 +10,9 @@
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "hexo": {
     "version": "6.0.0"
   },
@@ -28,7 +31,6 @@
   },
   "devDependencies": {
     "f2elint": "^2.2.1",
-    "hexo-deployer-git": "^3.0.0",
     "hexo-deployer-sftp": "^0.4.1"
   },
   "husky": {

@@ -5,7 +5,7 @@
 # Site
 title: Narol'Blog
 subtitle: Narol's Blog
-description: Devoted to Being a Full-Stack Engineer.
+description: A front-end engineer, but learning Android/iOS.
 
 keywords:
 author: Narol
@@ -101,13 +101,6 @@ ignore:
 theme: ascent
 
 prepath: ''
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-# deploy:
-#   - type: git
-#     repo: git@github.com:inarol/narol.pro.git
-#     branch: static
 
 permalink_pinyin:
   enable: true

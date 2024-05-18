@@ -32,6 +32,9 @@
         <%- post.excerpt %>
       <% } else { %>
         <%- post.content %>
+        <% if (!post.canReprint) { %>
+          <p class="dont-reprint">[本文谢绝转载，谢谢]</p>
+        <% } %>
       <% } %>
     </div>
     <% if (post.excerpt && index && theme.excerpt_link){ %>

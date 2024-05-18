@@ -1,21 +1,12 @@
-function set_image_size(image, width, height) {
+function setImageSize(image, width, height) {
   image.setAttribute('width', width + 'px');
   if (height) {
     image.setAttribute('height', height + 'px');
   }
 }
 
-function setImgsVisible() {
-  const imgs = document.querySelectorAll('.article-entry img');
-  for (let i = imgs.length - 1; i >= 0; i--) {
-    const img = imgs[i];
-    img.style.visibility = 'visible';
-  }
-}
-
-function hexo_resize_image() {
+function resizeArticleImages() {
   if (isMobile()) {
-    setImgsVisible();
     return;
   }
   const imgs = document.querySelectorAll('.article-entry img');
@@ -34,7 +25,7 @@ function hexo_resize_image() {
           height = (n_height * width) / n_width;
           width = (n_width * height) / n_height;
         }
-        set_image_size(img, width, height);
+        setImageSize(img, width, height);
       }
       continue;
     }
@@ -44,13 +35,13 @@ function hexo_resize_image() {
       const scale = parseFloat(fields[0].toString());
       const width = (scale / 100.0) * img.naturalWidth;
       const height = (scale / 100.0) * img.naturalHeight;
-      set_image_size(img, width, height);
+      setImageSize(img, width, height);
     }
   }
-  setImgsVisible();
 }
 
 function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
-window.onload = hexo_resize_image;
+
+window.onload = resizeArticleImages;

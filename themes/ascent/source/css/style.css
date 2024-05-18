@@ -3,6 +3,7 @@
   --bg-color: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   --code-bg-color: #f4f4f4;
+  --title-color: #212121;
   --text-color: #212121;
   --secondary-color: hsl(0, 0%, 50%);
   --tertiary-color: #b0b0b0;
@@ -16,6 +17,7 @@
   --title-stack: 'Playfair Display SC', 'Georgia', serif;
   --divider: rgb(235, 235, 235);
   --bgColor-neutral-muted: #65696e33;
+  --img-brightness: 1;
 }
 
 html {
@@ -108,21 +110,21 @@ body {
 }
 
 .article-header {
-  margin-bottom: 1.75em;
+  margin-bottom: 3em;
 }
 
 .article-title {
   text-align: left;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 0.25em;
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: var(--title-color);
 }
 
 .article-title.headline {
-  font-weight: 400;
   font-size: 24px;
 }
 
@@ -479,6 +481,7 @@ img {
   box-sizing: border-box;
   display: block;
   max-width: min(40em, 100%);
+  filter: brightness(var(--img-brightness));
 }
 
 a img {
@@ -575,4 +578,10 @@ table th {
 
 .dont-reprint {
   color: var(--secondary-color);
+}
+
+.article-entry h1,
+.article-entry h2,
+.article-entry h3{
+  color: var(--title-color);
 }

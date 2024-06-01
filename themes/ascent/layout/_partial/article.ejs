@@ -73,6 +73,16 @@
     <% } %>
   </div>
 </article>
+<% if (post.imgCenter){ %>
+  <style>
+    .article-entry img {
+      margin: 0 auto;
+    }
+    .img-title {
+      text-align: center;
+    }
+  </style>
+<% } %>
 <% if (!index){ %>
   <%- partial('post/nav') %>
 <% } %>

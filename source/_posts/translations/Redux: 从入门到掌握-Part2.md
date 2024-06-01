@@ -4,7 +4,7 @@ lang: zh-CN
 date: 2020-11-18
 excerpt: '本文是：Redux: 从入门到掌握-Part1的续篇，通过上一篇文章，我们理解了 Redux 各种的概念，而这篇文章，我们将通过编写一个简单的 TO-DO 列表的项目来学会如何使用Redux'
 categories:
-  - 技术
+  - 翻译
 ---
 
 > 本系列面向没有任何基础的 Redux 初学者，帮助开发者掌握 Redux，最后可以在项目中使用。

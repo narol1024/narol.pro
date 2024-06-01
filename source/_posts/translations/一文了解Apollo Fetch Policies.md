@@ -4,7 +4,7 @@ lang: zh-CN
 date: 2020-05-07
 excerpt: 像大多数前端开发工具一样，Apollo Client是非常灵活的，比如Apollo Cache就是其中一个。Apollo Client为浏览器提供了获取数据的缓存设置，避免不必要的网络请求，来提升应用的性能。
 categories:
-  - 技术
+  - 翻译
 text-align: left
 ---
 

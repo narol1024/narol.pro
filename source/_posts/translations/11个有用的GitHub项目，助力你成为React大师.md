@@ -4,7 +4,7 @@ lang: zh-CN
 date: 2020-11-17
 excerpt: 如今，大多数Web开发人员都在学习React，这要归功于它非常的流程和强大功能，虽然有很大优秀的Javascript框架，但React始终是构建Web UI的首选。React提供了构建一个快速的网站或应用所需的所有的功能支持，对于开发者而言，他们都强烈希望能够掌握这个框架。
 categories:
-  - 技术
+  - 翻译
 ---
 
 > 每个 React 开发者都应该了解的 Github 仓库。

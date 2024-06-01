@@ -54,7 +54,10 @@ document.getElementById('toggle-all').click();
       f('--link-hover-color', '#618794');
       f('--link-bg-color', '#dae4e7');
       f('--selection-color', '#dae4e7');
+      f('--divider', 'rgb(235, 235, 235)');
       f('--img-brightness', '1');
+      document.body.classList.remove('dark');
+      document.body.classList.add('light');
       m.classList.remove('icss-sun');
       m.classList.add('icss-moon');
 
@@ -76,8 +79,11 @@ document.getElementById('toggle-all').click();
       f('--link-color', '#4d6b75');
       f('--link-hover-color', '#96b1bb');
       f('--link-bg-color', '#5d828e');
-      f('--selection-color', '#acc1c9');
+      f('--selection-color', '#444');
+      f('--divider', 'rgba(235, 235, 235, 0.3)');
       f('--img-brightness', '0.85');
+      document.body.classList.remove('light');
+      document.body.classList.add('dark');
       m.classList.remove('icss-moon');
       m.classList.add('icss-sun');
 

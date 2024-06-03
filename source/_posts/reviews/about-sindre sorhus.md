@@ -11,7 +11,7 @@ categories:
 
 ## 对于开源项目，为什么他能做到高产
 
-核心理念就是，“Small focused reusable modules ”，也就是做一些**可复用的小模块**，比如他写的[user-home](https://github.com/sindresorhus/user-home)，Sindre Sorhus 也解释到，这些小模块最终是可以构成复杂的产品。对于前端的开源项目，要么做大而全的框架，目标是尽可能解决复杂的问题面，比如 React, Vue，而另外一种是类库，目前是解决特定问题，比如 axios，lodash，因此作为独立开发者选择后者的可能性更高。
+核心理念就是，“Small focused reusable modules ”，也就是做一些**可复用的小模块**，比如他写的[user-home](https://github.com/sindresorhus/user-home)，Sindre Sorhus 也解释到，这些小模块最终是可以构成复杂的产品。对于前端的开源项目，要么做大而全的框架，目标是尽可能解决复杂的问题面，比如 React, Vue，而另外一种是类库，目标是解决特定问题，比如 axios，lodash，因此作为独立开发者选择后者的可能性更高。
 
 其次，他是一位全职独立开发者，个人时间比较充裕，从 11AM 到 5PM 全部投入到开源项目，在深夜时间也会写。那么作为国内 996 开发者来说，要做到他这么高产是不太现实，但可以从日常的项目开发中，发现共性问题，并从里面提炼出可复用的代码模块，个人认为可以尝试这样的工作思路：目前在做的项目，有哪些模块是与业务无关的，可以独立地发布成 npm 包吗？
 
@@ -21,7 +21,7 @@ categories:
 
 ## Polyfill VS Ponyfill
 
-Polyfill 一般是使用 Monkey-patch 的方式在运行环境中，即在原生 API 上添加原本不支持的特性，这种方式会对运行环境造成副作用，如果遇到 Bug 时会很难定位，而且会更原生 API 的规范耦合。
+Polyfill 一般是使用 Monkey-patch 的方式在运行环境中，即在原生 API 上添加原本不支持的特性，这种方式会对运行环境造成副作用，如果遇到 Bug 时会很难定位，而且会强耦合原生 API 的规范标准。
 
 而 Ponyfill 仅仅是使用一个普通模块，导出与原生 API 特性一致的功能，没有任何的 Monkey-patch 代码，因此不会产生任何副作用。
 

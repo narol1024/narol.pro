@@ -2,7 +2,7 @@
 title: 个人Mac的高效配置和工具
 lang: zh-CN
 date: 2024-08-24
-excerpt: 最近在使用 React Native 调试时，遇到了一个 Bug，部分 Android 机在熄屏后抛出了 Socket 异常，看起来是这个异常因为未被捕获，而导致 NodeJS 进程崩溃
+excerpt: 今天重新刷了个人的 MacOS 系统，先备忘一下各种工具配置，后续再整理成正式的文章...
 categories:
   - 技术
 ---
